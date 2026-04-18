@@ -1,0 +1,19 @@
+[project]
+name = "phd_chapter4_suhii_vegetation"
+version = "0.1.0"
+description = "Analysis and visualization tools for PhD Chapter 4 SUHII vegetation study."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "geopandas",
+    "rasterio",
+    "xarray",
+    "jupyter",
+]
+
+[project.scripts]
+phd-chapter4-suhii-vegetation = "scripts.main:main"
